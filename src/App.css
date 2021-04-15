@@ -41,6 +41,15 @@
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
     font-size: 30px;
+    width: 100%;
+  }
+
+  .field :focus{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+  
   }
 
   .articles {
@@ -51,3 +60,20 @@
     color: rgb(255, 255, 255);
     font-size: 30px;
   }
+
+  .details{
+    text-align:center;
+    font-size:xx-large;
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    color: white;
+  }
+  .article-list-item {
+    text-decoration: none;
+    color: black;
+    padding: 16px 0 0 0;
+    margin: 5%;
+  }
+  .article-list-head{
+    text-decoration: underline double;
+  }
+  
